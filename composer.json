@@ -1,0 +1,21 @@
+{
+    "name": "irelance/dfa-sensitive-words-filter",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irelance",
+            "email": "heirelance@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irelance\\Sensitive\\": "src/"
+        }
+    }
+}
